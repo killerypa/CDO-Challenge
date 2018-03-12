@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <animator name="scale_with_alpha">res/animator/scale_with_alpha.xml</animator>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.telefonica.hunting" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="26" />
+    <meta-data android:name="android.support.VERSION" android:value="26.0.0-alpha1" />
+    <application android:theme="@style/Theme.AppCompat.NoActionBar" android:label="@string/app_name" android:icon="@drawable/icon" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="@drawable/icon">
+        <activity android:name="com.telefonica.hunting.PageTutorial" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
+    </application>
+</manifest>

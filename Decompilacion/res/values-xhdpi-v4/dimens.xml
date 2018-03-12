@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_size">260.0dip</dimen>
+    <dimen name="margin_large">26.0dip</dimen>
+    <dimen name="margin_medium">15.0dip</dimen>
+    <dimen name="margin_small">8.0dip</dimen>
+    <dimen name="margin_ultralarge">30.0dip</dimen>
+    <dimen name="margin_xsmall">3.0dip</dimen>
+    <dimen name="textsize_large">19.0sp</dimen>
+    <dimen name="textsize_medium">16.0sp</dimen>
+    <dimen name="textsize_small">10.0sp</dimen>
+    <dimen name="textsize_xlarge">24.0sp</dimen>
+</resources>
