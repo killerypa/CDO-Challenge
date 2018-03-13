@@ -14,7 +14,9 @@ public class Challenge {
     private static final String SOLVE_CHALLENGE = "Implement class MySequence. Replace Object type from method signatures with the more suitable type you consider";
 
     private class MySequence {
+
         private MySequence() {
+
         }
 
         public void add(Object n) {
@@ -49,5 +51,9 @@ public class Challenge {
         s.add(Integer.valueOf(3));
         Object thisShouldBeNumber_6 = s.getFirstNonDuplicated();
         Log.e("Output", "Previous operation returns 6");
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
     }
 }

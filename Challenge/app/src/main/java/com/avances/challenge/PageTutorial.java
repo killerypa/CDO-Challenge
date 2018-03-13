@@ -60,9 +60,11 @@ public class PageTutorial extends Activity {
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_page_tutorial);
+        setContentView(R.layout.activity_page_tutorial); 
         retrieveViews();
         setPageAdapter();
+
+
     }
 
     private void retrieveViews() {
